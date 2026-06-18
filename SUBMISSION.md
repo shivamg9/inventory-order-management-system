@@ -8,7 +8,7 @@ GitHub Repository Link (Frontend + Backend)
 
 Backend Docker Hub Image Link
 
-`https://hub.docker.com/r/shivamg9/inventory-order-api`
+`https://hub.docker.com/r/shivamg2/inventory-order-api`
 
 Frontend Hosted URL
 
@@ -27,9 +27,9 @@ git push -u origin main
 ```
 
 ```bash
-docker build -t shivamg9/inventory-order-api:latest ./backend
+docker build -t shivamg2/inventory-order-api:latest ./backend
 docker login
-docker push shivamg9/inventory-order-api:latest
+docker push shivamg2/inventory-order-api:latest
 ```
 
 Deploy backend on Render:
